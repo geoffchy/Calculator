@@ -1,0 +1,32 @@
+GUI Testing 
+Geoffrey Yeung
+1317141
+
+Testing :
+
+INTEGER MODE: RED (Default)
+
+	Press Number, followed by operation "+,-,*,/" , followed by another number. 
+	Finally, hit "Equal"
+	1+2 = 3 will appear when typed in
+
+	Error: Fractions
+	Having two integers divide which are not divisible will result in a "Fraction Error"
+	"1/2="" will result in a Fraction Error
+
+
+FLOAT MODE: GREEN
+
+	Pressing a number, followed by an operation "+,-,*,/", followed by another number, finally followed by the equal sign with result in a float/ double number with 6 decimal places.
+	3*4 = 12.000000 will appear when typed in
+
+ADDITIONAL NOTES IN TESTING:
+
+	Infinity Will throw an exception programmed also to say Fraction Error. 
+	1/0= will display
+
+	Backspace (B) will delete the most recent thing typed in.
+	Typing 9+3 then hitting backspace will result in "9+" being displayed
+
+	Clear All (AC) will clear the screen once pressed.
+	Typing 4/3 then hitting AC will result in a clear screen
